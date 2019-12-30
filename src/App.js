@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
 
+import Toolbar from './components/Toolbar/Toolbar';
+
 function App() {
   return (
     <div className="App">
-      <h1>React Diary</h1>
+      <Toolbar />
     </div>
   );
 }

@@ -1,11 +1,13 @@
 import React from 'react';
 
+import NavigationItem from './NavigationItem/NavigationItem';
+
 const NavigationItems = props => {
   return (
     <nav>
       <ul>
-        <li>Diary</li>
-        <li>Show All Dairy</li>
+        <NavigationItem>Diary</NavigationItem>
+        <NavigationItem>Show All Diary</NavigationItem>
       </ul>
     </nav>
   );
