@@ -1,0 +1,13 @@
+.NavigationItem {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.NavigationItem a {
+  text-decoration: none;
+  color: #333;
+}
+
+.NavigationItem a:hover {
+  text-decoration: underline;
+}

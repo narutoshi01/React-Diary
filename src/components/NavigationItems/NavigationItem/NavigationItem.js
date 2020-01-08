@@ -1,7 +1,15 @@
 import React from 'react';
 
+import styles from './NavigationItem.module.css';
+
 const NavigationItem = props => {
-  return <li>{props.children}</li>;
+  return (
+    <li className={styles.NavigationItem}>
+      <a href="https://www.google.com" target="_new">
+        {props.children}
+      </a>
+    </li>
+  );
 };
 
 export default NavigationItem;
